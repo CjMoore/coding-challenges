@@ -1,0 +1,19 @@
+[31mF[0m
+
+Failures:
+
+  1) push pushes into first element of array
+     [31mFailure/Error: [0marr = [1;34;4mBasicStack[0m.new[0m
+     [31m[0m
+     [31mNameError:[0m
+     [31m  uninitialized constant BasicStack[0m
+     [31m  Did you mean?  BasicObject[0m
+     [36m# ./spec/basic_stack_spec.rb:5:in `block (2 levels) in <top (required)>'[0m
+
+Finished in 0.00221 seconds (files took 0.2396 seconds to load)
+[31m1 example, 1 failure[0m
+
+Failed examples:
+
+[31mrspec ./spec/basic_stack_spec.rb:4[0m [36m# push pushes into first element of array[0m
+
