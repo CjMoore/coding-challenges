@@ -18,3 +18,21 @@ describe 'pop' do
     expect(arr.array.length).to eq(0)
   end
 end
+
+describe 'count' do
+  it 'counts number of elements in array' do
+    arr = BasicStack.new
+    arr.array = ['one', 'two', 'three', 'four']
+
+    expect(arr.count_it).to eq(4)
+  end
+end
+
+describe 'peek' do
+  it 'gives the top element without removing it' do
+    arr = BasicStack.new
+    arr.array = ['one', 'two', 'three']
+
+    expect(arr.peek).to eq('one')
+  end
+end

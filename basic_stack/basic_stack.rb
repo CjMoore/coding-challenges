@@ -13,4 +13,14 @@ class BasicStack
   def pop_it
     @array.delete_at(0)
   end
+
+  def count_it
+    counter = 0
+    @array.each {|elem| counter += 1}
+    counter
+  end
+
+  def peek
+    @array[0]
+  end
 end
