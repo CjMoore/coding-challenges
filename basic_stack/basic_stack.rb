@@ -23,4 +23,12 @@ class BasicStack
   def peek
     @array[0]
   end
+
+  def max_it
+    max = @array[0]
+    @array.each do |element|
+      max = element if element > max
+    end
+    max
+  end
 end

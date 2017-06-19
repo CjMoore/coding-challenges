@@ -36,3 +36,12 @@ describe 'peek' do
     expect(arr.peek).to eq('one')
   end
 end
+
+describe 'max' do
+  it 'returns the max value in array' do
+    arr = BasicStack.new
+    arr.array = [1, 6, 7, 3]
+
+    expect(arr.max_it).to eq(7)
+  end
+end
