@@ -1,20 +1,5 @@
-[31mF[0m
+[32m.[0m
 
-Failures:
-
-  1) merging_reversed_lists takes two arrays and returns a single array with sorted values
-     [31mFailure/Error: [0m[32mexpect[0m(merging_reversed_lists(arr1, arr2)).to eq([[1;34m1[0m, [1;34m2[0m, [1;34m3[0m, [1;34m5[0m, [1;34m6[0m, [1;34m6[0m, [1;34m8[0m, [1;34m9[0m, [1;34m10[0m])[0m
-     [31m[0m
-     [31m  expected: [1, 2, 3, 5, 6, 6, 8, 9, 10][0m
-     [31m       got: [1, 2, 3, 5, 6, 6, 9, 8, 10][0m
-     [31m[0m
-     [31m  (compared using ==)[0m
-     [36m# ./spec/merging_reversed_lists_spec.rb:8:in `block (2 levels) in <top (required)>'[0m
-
-Finished in 0.01711 seconds (files took 0.6655 seconds to load)
-[31m1 example, 1 failure[0m
-
-Failed examples:
-
-[31mrspec ./spec/merging_reversed_lists_spec.rb:4[0m [36m# merging_reversed_lists takes two arrays and returns a single array with sorted values[0m
+Finished in 0.00327 seconds (files took 0.68327 seconds to load)
+[32m1 example, 0 failures[0m
 
