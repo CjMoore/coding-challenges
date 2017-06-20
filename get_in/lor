@@ -1,20 +1,5 @@
-[31mF[0m
+[32m.[0m
 
-Failures:
-
-  1) get_in takes an arguement of a nested hash and an array of keys and returns deepest value
-     [31mFailure/Error: [0m[32mexpect[0m(get_in(data, [[33m:with_another[0m, [33m:and_another[0m, [33m:inside[0m])).to eq([31m[1;31m'[0m[31mthat[1;31m'[0m[31m[0m)[0m
-     [31m[0m
-     [31m  expected: "that"[0m
-     [31m       got: [["that", "that"], ["that", "that"]][0m
-     [31m[0m
-     [31m  (compared using ==)[0m
-     [36m# ./spec/get_in_spec.rb:14:in `block (2 levels) in <top (required)>'[0m
-
-Finished in 0.01456 seconds (files took 0.68665 seconds to load)
-[31m1 example, 1 failure[0m
-
-Failed examples:
-
-[31mrspec ./spec/get_in_spec.rb:4[0m [36m# get_in takes an arguement of a nested hash and an array of keys and returns deepest value[0m
+Finished in 0.00248 seconds (files took 0.85022 seconds to load)
+[32m1 example, 0 failures[0m
 
