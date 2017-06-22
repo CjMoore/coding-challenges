@@ -26,7 +26,6 @@ class CustomArray
       end
     end
   end
-
 end
 
 c = CustomArray.new([[1,2],[3,[4,5]]])
